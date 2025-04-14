@@ -1,0 +1,20 @@
+.payment{
+  color: rgb(218, 0, 181);
+}
+
+  
+
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .animate-rotate-border {
+    filter: blur(10px);
+    opacity: 0.7;
+  }
+  

@@ -1,0 +1,11 @@
+.payment {
+    color: rgb(218, 0, 181);
+}
+
+.bg {
+    background: linear-gradient(to left, #7c10c9 0%, #DA00B5);
+}
+
+.border {
+    border: 0.5px solid #ff6a00;
+}

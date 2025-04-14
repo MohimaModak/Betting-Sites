@@ -4,13 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Root";
 import Home from "./assets/Component/Home/Home";
 import './index.css';
-import Shop from "./assets/Component/Shop/Shop";
-import Services from "./assets/Component/Services/Services";
-import Community from "./assets/Component/Community/Community";
-import AdoptPet from "./assets/Component/AdoptPet/AdoptPet";
-import Testimonials from "./assets/Component/Testimonials/Testimonials";
-import Blog from "./assets/Component/Blog/Blog";
 import Contact from "./assets/Component/Contact/Contact";
+import Why from "./assets/Component/Why/Why";
 
 const router = createBrowserRouter([
   {
@@ -22,28 +17,8 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/Shop",
-        element: <Shop></Shop>,
-      },
-      {
-        path: "/Services",
-        element: <Services></Services>,
-      },
-      {
-        path: "/AdoptPet",
-        element: <AdoptPet></AdoptPet>,
-      },
-      {
-        path: "/Community",
-        element: <Community></Community>,
-      },
-      {
-        path: "/Testimonials",
-        element: <Testimonials></Testimonials>,
-      },
-      {
-        path: "/Blog",
-        element: <Blog></Blog>
+        path: "/Why",
+        element: <Why></Why>,
       },
       {
         path: "/Contact",
