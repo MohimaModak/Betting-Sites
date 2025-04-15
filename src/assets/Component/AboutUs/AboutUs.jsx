@@ -5,7 +5,7 @@ export default function AboutUs() {
     return (
         <div className="aboutbg text-white py-16 px-5 lg:px-16 relative">
 
-            <div className='relative flex justify-center items-center'>
+            <div id='/AboutUs' className='relative flex justify-center items-center'>
                
            
             <div className=''>

@@ -7,7 +7,6 @@ import Card3 from "../../../../src/Gallery/Card3.png"
 import Card4 from "../../../../src/Gallery/Card4.png"
 import Card5 from "../../../../src/Gallery/Card5.png"
 import Card6 from "../../../../src/Gallery/Card6.png"
-import Card7 from "../../../../src/Gallery/Card7.png"
 import Card8 from "../../../../src/Gallery/Card8.png"
 import "./Home.css"
 import Marquee from 'react-fast-marquee'
@@ -24,20 +23,19 @@ export default function Home() {
                         <div className="box">
                             <img src={herobg} className='opacity-25 object-cover w-full h-full' />
                            
-                            <div><img src={Card1} alt="" srcset="" /></div>
-                            <div><img src={Card2} alt="" srcset="" /></div>
-                            <div><img src={Card3} alt="" srcset="" /></div>
-                            <div><img src={Card6} alt="" srcset="" /></div>
-                            <div><img src={Card5} alt="" srcset="" /></div>
-                            <div><img src={Card6} alt="" srcset="" /></div>
-                            <div><img src={Card4} alt="" srcset="" /></div>
-                            <div><img src={Card7} alt="" srcset="" /></div>
-                            <div><img src={Card8} alt="" srcset="" /></div>
-                            <div><img src={Card6} alt="" srcset="" /></div>
-                            <div><img src={Card1} alt="" srcset="" /></div>
-                            <div><img src={Card2} alt="" srcset="" /></div>
-                            <div><img src={Card3} alt="" srcset="" /></div>
-                            <div><img src={Card6} alt="" srcset="" /></div>
+                            <div><img src={Card1}/></div>
+                            <div><img src={Card2}/></div>
+                            <div><img src={Card3}/></div>
+                            <div><img src={Card6}/></div>
+                            <div><img src={Card5}/></div>
+                            <div><img src={Card6}/></div>
+                            <div><img src={Card4}/></div>
+                            <div><img src={Card8}/></div>
+                            <div><img src={Card6}/></div>
+                            <div><img src={Card1}/></div>
+                            <div><img src={Card2}/></div>
+                            <div><img src={Card3}/></div>
+                            <div><img src={Card6}/></div>
                             
                         </div>
                     </div>
