@@ -1,20 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react'
 import "./AboutUs.css"
-import slider1 from "../../../../src/Gallery/slider1.webp"
-import slider2 from "../../../../src/Gallery/slider2.jpeg"
-import slider3 from "../../../../src/Gallery/slider3.jpeg"
-import slider4 from "../../../../src/Gallery/slider4.webp"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function AboutUs() {
+
+     useEffect(() => {
+            AOS.init({
+              duration: 1500,
+              easing: 'ease-out',
+              once: true,
+              delay: 100,
+            });
+            AOS.refresh();
+          }, []);
+
+
     return (
         <div className="aboutbg text-white py-16 px-5 lg:px-16 relative">
 
             <div id='/AboutUs' className='relative flex justify-center items-center gap-5'>
 
-                <div className=''>
+                <div data-aos="fade-up" className=''>
                     <div className="max-w-4xl mx-auto text-center">
                         <h1 className="text-center text-white text-4xl md:text-4xl lg:text-5xl font-bold mb-4">
-                            I am <span className="payment">SAMIR MALIK</span>
+                            I am <span className="payment">Jihan Khan</span>
                         </h1>
 
                         <div className="">
@@ -33,9 +43,9 @@ export default function AboutUs() {
                                         <h1 className="payment text-xl lg:text-2xl font-semibold mb-4">সুপার এডমিন, এডমিন, ও নতুন সাইট নিতে যোগাযোগ করুন।
                                         </h1>
                                         <div className='flex justify-center items-center'>
-                                            <a target='_blank' href="https://wa.me/16162743677">
+                                            <a target='_blank' href="https://wa.me/16892857706">
                                                 <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                    +1(616) 274-3677
+                                                +16892857706
                                                 </button>
                                             </a>
                                         </div>
@@ -56,18 +66,18 @@ export default function AboutUs() {
                                         <div className=''>
                                             <div className='flex justify-center items-center mb-4'>
                                                 <div>
-                                                    <a target='_blank' href="https://wa.me/1616273677">
+                                                    <a target='_blank' href="https://wa.me/16468143702">
                                                         <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                            +1616273677
+                                                        +16468143702
                                                         </button>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div className='flex justify-center items-center'>
                                                 <div>
-                                                    <a target='_blank' href="https://wa.me/16162743677">
+                                                    <a target='_blank' href="https://wa.me/16892857706">
                                                         <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                            +1(616) 274-3677
+                                                        +16892857706
                                                         </button>
                                                     </a>
                                                 </div>
@@ -83,15 +93,6 @@ export default function AboutUs() {
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
-                                {/* <div className='flex justify-center items-center'>
-                            <a target='_blank' href="https://wa.me/1616274-3677">
-                                <button className="bg text-white font-bold py-2 px-6 text-xl rounded transition">
-                                    WhatsApp Me
-                                    +1(616) 274-3677
-                                </button>
-                            </a>
-                        </div> */}
-
                                 <button className="bg text-white py-3 px-5 rounded-md font-medium shadow text-xl transition">
                                     Get Your User Demo ID Now
                                 </button>

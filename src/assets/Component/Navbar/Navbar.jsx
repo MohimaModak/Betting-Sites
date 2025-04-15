@@ -37,7 +37,7 @@ export default function Navbar() {
             Our Site List
           </Link>
           <Link to="/Why" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
-            Why Samir Malik
+            Why Jihan Khan
           </Link>
           <Link to="/Contact" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Contact Us
@@ -63,7 +63,7 @@ export default function Navbar() {
                 <img src={logo} alt="" />
               </div>
               <Link to="/Why" smooth={true} duration={1000} className="text-xl mr-4">
-                Why Samir Malik
+                Why Jihan Khan
               </Link>
               <Link to="/Contact" smooth={true} duration={1000} className="text-xl">
                 Contact Us
