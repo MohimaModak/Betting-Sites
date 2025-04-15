@@ -2,18 +2,19 @@ import React, { useEffect } from 'react'
 import "./AboutUs.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-scroll";
 
 export default function AboutUs() {
 
-     useEffect(() => {
-            AOS.init({
-              duration: 1500,
-              easing: 'ease-out',
-              once: true,
-              delay: 100,
-            });
-            AOS.refresh();
-          }, []);
+    useEffect(() => {
+        AOS.init({
+            duration: 1500,
+            easing: 'ease-out',
+            once: true,
+            delay: 100,
+        });
+        AOS.refresh();
+    }, []);
 
 
     return (
@@ -45,7 +46,7 @@ export default function AboutUs() {
                                         <div className='flex justify-center items-center'>
                                             <a target='_blank' href="https://wa.me/16892857706">
                                                 <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                +16892857706
+                                                    +16892857706
                                                 </button>
                                             </a>
                                         </div>
@@ -68,7 +69,7 @@ export default function AboutUs() {
                                                 <div>
                                                     <a target='_blank' href="https://wa.me/16468143702">
                                                         <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                        +16468143702
+                                                            +16468143702
                                                         </button>
                                                     </a>
                                                 </div>
@@ -77,7 +78,7 @@ export default function AboutUs() {
                                                 <div>
                                                     <a target='_blank' href="https://wa.me/16892857706">
                                                         <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                        +16892857706
+                                                            +16892857706
                                                         </button>
                                                     </a>
                                                 </div>
@@ -93,9 +94,14 @@ export default function AboutUs() {
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
-                                <button className="bg text-white py-3 px-5 rounded-md font-medium shadow text-xl transition">
-                                    Get Your User Demo ID Now
-                                </button>
+
+                                <Link to="/OurSiteList" smooth={true} duration={1000} className="text-xl p-4 block">
+                                    <button className="bg text-white py-3 px-5 rounded-md font-medium shadow text-xl transition">
+                                        Get Your User Demo ID Now
+                                    </button>
+                                </Link>
+
+
                             </div>
                         </div>
                     </div>
