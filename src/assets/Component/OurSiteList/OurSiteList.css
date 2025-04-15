@@ -1,0 +1,37 @@
+.sitelistbg {
+  background: linear-gradient(to top, #31052a, #310053);
+}
+
+.gradient-border {
+  background: linear-gradient(270deg, #ff005e, #00ffee, #0044ff, #ba43ff, #ff005e);
+  background-size: 400% 400%;
+  animation: moveGradient 3s ease infinite;
+  border-radius: 0.375rem;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.payment {
+  color: rgb(218, 0, 181);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.btn {
+  background-image: conic-gradient(rgb(1, 66, 187), rgb(255, 55, 222), rgb(3, 167, 196));
+  backdrop-filter: blur(15px);
+  text-shadow: 0px 2px 2px black;
+}

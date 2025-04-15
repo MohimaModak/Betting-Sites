@@ -3,7 +3,7 @@ import "./Why.css";
 
 export default function Why() {
   return (
-    <div className='bg-black'>
+    <div className='whybg'>
       <div id='/Why' className='h-full py-16 px-5 lg:px-16'>
         <div>
           <h1 className='text-center text-white text-4xl md:text-4xl lg:text-6xl font-bold'>
@@ -14,7 +14,7 @@ export default function Why() {
               <div className="relative bg-black/80 backdrop-blur-lg p-8 flex justify-center items-center mb-5 lg:mb-0 rounded-xl overflow-hidden border border-gray-700">
 
                 <div className="absolute inset-0 rounded-xl animate-rotate-border opacity-70" style={{
-                  background: 'conic-gradient(transparent, transparent, #c084fc, transparent)',
+                  background: 'conic-gradient(transparent, transparent, #6b21a8, transparent)',
                   animation: 'rotate 10s linear infinite',
                 }}></div>
 
@@ -31,7 +31,7 @@ export default function Why() {
               <div className="relative bg-black/80 backdrop-blur-lg p-8 flex justify-center items-center mb-5 lg:mb-0 rounded-xl overflow-hidden border border-gray-700">
 
                 <div className="absolute inset-0 rounded-xl animate-rotate-border opacity-70" style={{
-                  background: 'conic-gradient(transparent, transparent, #c084fc, transparent)',
+                  background: 'conic-gradient(transparent, transparent, #6b21a8, transparent)',
                   animation: 'rotate 10s linear infinite',
                 }}></div>
 
@@ -51,7 +51,7 @@ export default function Why() {
               <div className="relative bg-black/80 backdrop-blur-lg p-8 flex justify-center items-center mb-5 lg:mb-0 rounded-xl overflow-hidden border border-gray-700">
 
                 <div className="absolute inset-0 rounded-xl animate-rotate-border opacity-70" style={{
-                  background: 'conic-gradient(transparent, transparent, #c084fc, transparent)',
+                  background: 'conic-gradient(transparent, transparent, #6b21a8, transparent)',
                   animation: 'rotate 10s linear infinite',
                 }}></div>
 
@@ -69,7 +69,7 @@ export default function Why() {
               <div className="relative bg-black/80 backdrop-blur-lg p-8 flex justify-center items-center mb-5 lg:mb-0 rounded-xl overflow-hidden border border-gray-700">
 
                 <div className="absolute inset-0 rounded-xl animate-rotate-border opacity-70" style={{
-                  background: 'conic-gradient(transparent, transparent, #c084fc, transparent)',
+                  background: 'conic-gradient(transparent, transparent, #6b21a8, transparent)',
                   animation: 'rotate 10s linear infinite',
                 }}></div>
 
@@ -87,7 +87,7 @@ export default function Why() {
               <div className="relative bg-black/80 backdrop-blur-lg p-8 flex justify-center items-center mb-5 lg:mb-0 rounded-xl overflow-hidden border border-gray-700">
 
                 <div className="absolute inset-0 rounded-xl animate-rotate-border opacity-70" style={{
-                  background: 'conic-gradient(transparent, transparent, #c084fc, transparent)',
+                  background: 'conic-gradient(transparent, transparent, #6b21a8, transparent)',
                   animation: 'rotate 10s linear infinite',
                 }}></div>
 
@@ -105,7 +105,7 @@ export default function Why() {
               <div className="relative bg-black/80 backdrop-blur-lg p-8 flex justify-center items-center mb-5 lg:mb-0 rounded-xl overflow-hidden border border-gray-700">
 
                 <div className="absolute inset-0 rounded-xl animate-rotate-border opacity-70" style={{
-                  background: 'conic-gradient(transparent, transparent, #c084fc, transparent)',
+                  background: 'conic-gradient(transparent, transparent, #6b21a8, transparent)',
                   animation: 'rotate 10s linear infinite',
                 }}></div>
 

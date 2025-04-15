@@ -7,7 +7,7 @@ import "./Contact.css"
 
 export default function Contact() {
   return (
-    <div id='/Contact' className='h-full bg-black'>
+    <div id='/Contact' className='h-full contactbg'>
       <div className='py-12 px-4'>
         <h1 className='text-center text-4xl md:text-4xl lg:text-6xl font-bold pb-7'><span className='payment'>Payment</span> We Accept</h1>
 
@@ -34,53 +34,48 @@ export default function Contact() {
           <h1 className='text-xl mb-4'>ইউজার অ্যাকাউন্ট নিতে এখনি যোগাযোগ করুন।</h1>
           <div className="flex justify-center items-center gap-4 mb-16">
             <a href="tel:+4571597652">
-              <h1 className="bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl">+1(616) 274-3677</h1>
+              <h1 className="bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl">+1(616) 274-3677</h1>
             </a>
           </div>
 
-          <h1 className='text-3xl md:text-4xl font-bold md:px-10'>আমাদের এজেন্ট লিস্ট চেক করে পড়ে লেনদেন করবেন। এজেন্ট লিস্ট এর বাহিরে লেনদেন করে প্রতারিত হলে আমাদের গ্রুপ বা এডমিন পেনেল দ্বায়ী থাকবে না।
+          <h1 className='text-2xl md:text-3xl font-medium md:px-10'>আমাদের এজেন্ট লিস্ট চেক করে পড়ে লেনদেন করবেন। এজেন্ট লিস্ট এর বাহিরে লেনদেন করে প্রতারিত হলে আমাদের গ্রুপ বা এডমিন পেনেল দ্বায়ী থাকবে না।
           </h1>
 
           <div className='lg:flex justify-center items-center gap-10 my-8'>
             <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <a target='_blank' href="https://www.facebook.com/DigitalZetofficial">
+                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>Digitalzet Page</h1>
               </a>
             </div>
             <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <a target='_blank' href=" https://www.facebook.com/profile.php?id=61564665096254">
+                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>SiXfair Page</h1>
               </a>
             </div>
             <div className="flex justify-center items-center gap-4">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <a target='_blank' href=" https://www.facebook.com/Nagadwi">
+                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>Nagadwin Page</h1>
               </a>
             </div>
           </div>
 
-          <h1 className='text-3xl md:text-4xl font-bold '>আমাদের অফিসিয়াল গ্রুপ এবং পেজ ভিজিট করুন।
+          <h1 className='text-2xl md:text-3xl font-medium'>আমাদের অফিসিয়াল গ্রুপ এবং পেজ ভিজিট করুন।
           </h1>
 
           <div className='lg:flex justify-center items-center gap-10 my-8'>
             <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <a target='_blank' href="https://www.facebook.com/groups/828211297830627">
+                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>Betting Tips Group</h1>
               </a>
             </div>
             <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <a target='_blank' href="https://www.facebook.com/groups/203559938036469">
+                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>Bety247 Group</h1>
               </a>
             </div>
             <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
-              </a>
-            </div>
-            <div className="flex justify-center items-center gap-4">
-              <a href="tel:+4571597652">
-                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <a target='_blank' href="https://www.facebook.com/Jihankhan365/">
+                <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>Contact Me on Facebook</h1>
               </a>
             </div>
           </div>
@@ -89,13 +84,13 @@ export default function Contact() {
           <h1 className='text-xl mb-8'>We Provide 24/7 Service For Our Customers.</h1>
           <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
             <a href="tel:+4571597652">
-              <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-bold rounded-md px-8 py-5 text-2xl md:text-3xl'>+1(616) 274-3677</h1>
+              <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>+1(616) 274-3677</h1>
             </a>
           </div>
           <div className='mt-16'>
             <div className='flex justify-center items-center gap-5'>
               <div className='flex justify-center items-center'>
-                <a href="">
+                <a target='_blank' href="https://www.facebook.com/DigitalZetofficial">
                   <img src={facebook} className='w-8' />
                 </a>
               </div>

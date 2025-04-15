@@ -1,0 +1,30 @@
+.aboutbg {
+    background: linear-gradient(to top, #1b042c 0%, #31052a);
+}
+
+.payment{
+    color: rgb(218, 0, 181);
+  }
+  
+  .aboutbg {
+    background: linear-gradient(to top, #310053 0%, #31052a);
+  }
+
+  .bg {
+    background-image: conic-gradient(rgb(1, 66, 187), rgb(255, 55, 222), rgb(3, 167, 196));
+text-shadow: 0px 2px 2px black;
+}
+  
+  
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .animate-rotate-border {
+      filter: blur(30px);
+      opacity: 0.7;
+    }

@@ -44,11 +44,11 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgb(221, 6, 221), rgb(87, 87, 250));
-  box-shadow:
+  /* background: radial-gradient(circle, rgb(221, 6, 221), rgb(87, 87, 250)); */
+  /* box-shadow:
     0 0 40px rgba(255, 126, 95, 0.8),
     0 0 80px rgba(255, 126, 95, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
 
   animation: animate 10s linear infinite, borderGradient 6s ease infinite;
 }
@@ -58,11 +58,11 @@
   left: 42%;
   width: 80px;
   height: 80px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(106, 17, 203, 0.8),
     0 0 80px rgba(37, 117, 252, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 10s linear infinite, borderGradient 10s ease infinite;
 }
 
@@ -71,11 +71,11 @@
   left: 50%;
   width: 100px;
   height: 100px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 154, 158, 0.8),
     0 0 80px rgba(250, 208, 196, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 7s linear infinite, borderGradient 7s ease infinite;
 }
 
@@ -84,11 +84,11 @@
   left: 6%;
   width: 70px;
   height: 70px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(251, 194, 235, 0.8),
     0 0 80px rgba(166, 193, 238, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 9s linear infinite, borderGradient 9s ease infinite;
 }
 
@@ -97,11 +97,11 @@
   left: 60%;
   width: 90px;
   height: 90px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(132, 250, 176, 0.8),
     0 0 80px rgba(143, 211, 244, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 10s linear infinite, borderGradient 10s ease infinite;
 }
 
@@ -110,24 +110,24 @@
   left: 10%;
   width: 110px;
   height: 110px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(161, 140, 209, 0.8),
     0 0 80px rgba(251, 194, 235, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 6s linear infinite, borderGradient 6s ease infinite;
 }
 
 .box div:nth-child(6) {
-  top: 80%;
+  top: 50%;
   left: 70%;
   width: 60px;
   height: 60px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 111, 97, 0.8),
     0 0 80px rgba(255, 204, 0, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 12s linear infinite, borderGradient 12s ease infinite;
 }
 
@@ -136,11 +136,11 @@
   left: 70%;
   width: 80px;
   height: 80px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 175, 189, 0.8),
     0 0 80px rgba(255, 195, 160, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 12s linear infinite, borderGradient 12s ease infinite;
 }
 
@@ -149,11 +149,11 @@
   left: 65%;
   width: 120px;
   height: 120px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 126, 95, 0.8),
     0 0 80px rgba(254, 180, 123, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 16s linear infinite, borderGradient 16s ease infinite;
 }
 
@@ -161,12 +161,12 @@
   top: 20%;
   left: 85%;
   width: 70px;
-  height: 70px;
-  background: radial-gradient(circle, #6a11cb, #2575fc);
-  box-shadow:
+  height: 100px;
+  /* background: radial-gradient(circle, #6a11cb, #2575fc); */
+  /* box-shadow:
     0 0 40px rgba(106, 17, 203, 0.8),
     0 0 80px rgba(37, 117, 252, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 9s linear infinite, borderGradient 9s ease infinite;
 }
 
@@ -175,11 +175,11 @@
   left: 85%;
   width: 50px;
   height: 50px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 154, 158, 0.8),
     0 0 80px rgba(250, 208, 196, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 5s linear infinite, borderGradient 5s ease infinite;
 }
 
@@ -188,11 +188,11 @@
   left: 35%;
   width: 95px;
   height: 95px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 255, 255, 0.8),
     0 0 80px rgba(255, 255, 255, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 8s linear infinite, borderGradient 5s ease infinite;
 }
 
@@ -201,11 +201,11 @@
   left: 55%;
   width: 55px;
   height: 55px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 255, 255, 0.8),
     0 0 80px rgba(255, 255, 255, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 10s linear infinite, borderGradient 5s ease infinite;
 }
 
@@ -214,11 +214,11 @@
   left: 55%;
   width: 75px;
   height: 75px;
-  background: radial-gradient(circle, purple, blue);
-  box-shadow:
+  /* background: radial-gradient(circle, purple, blue); */
+  /* box-shadow:
     0 0 40px rgba(255, 255, 255, 0.8),
     0 0 80px rgba(255, 255, 255, 0.6),
-    inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    inset 10px 10px 20px rgba(0, 0, 0, 0.5); */
   animation: animate 15s linear infinite, borderGradient 5s ease infinite;
 }
 
@@ -226,7 +226,7 @@
 @keyframes animate {
   0% {
     transform: scale(0) translateY(0) rotate(0);
-    opacity: 3;
+    opacity: 4;
   }
 
   100% {
@@ -269,7 +269,7 @@
 }
 
 .textShadow {
-  text-shadow: 0px 8px 8px rgb(255, 255, 255);
+  text-shadow: 0px 8px 8px rgb(50, 0, 59);
 }
 
 

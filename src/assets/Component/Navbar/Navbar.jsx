@@ -29,8 +29,14 @@ export default function Navbar() {
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
           </Link>
+          <Link to="/AboutUs" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
+          About Us
+          </Link>
+          <Link to="/OurSiteList" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
+            Our Site List
+          </Link>
           <Link to="/Why" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
-          Why Samir Malik
+            Why Samir Malik
           </Link>
           <Link to="/Contact" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Contact Us
@@ -46,8 +52,14 @@ export default function Navbar() {
               <Link to="/" smooth={true} duration={1000} className="text-xl mr-10">
                 Home
               </Link>
+              <Link to="/AboutUs" smooth={true} duration={1000} className="text-xl mr-10">
+              About Us
+              </Link>
+              <Link to="/OurSiteList" smooth={true} duration={1000} className="text-xl mr-10">
+                Our Site List
+              </Link>
               <Link to="/Why" smooth={true} duration={1000} className="text-xl mr-10">
-              Why Samir Malik
+                Why Samir Malik
               </Link>
               <Link to="/Contact" smooth={true} duration={1000} className="text-xl mr-10">
                 Contact Us

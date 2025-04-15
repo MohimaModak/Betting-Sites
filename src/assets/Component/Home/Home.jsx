@@ -1,9 +1,19 @@
 import React from 'react'
 import Contact from '../Contact/Contact'
 import herobg from "../../../../src/Gallery/herobg.jpeg"
+import Card1 from "../../../../src/Gallery/Card1.png"
+import Card2 from "../../../../src/Gallery/Card2.png"
+import Card3 from "../../../../src/Gallery/Card3.png"
+import Card4 from "../../../../src/Gallery/Card4.png"
+import Card5 from "../../../../src/Gallery/Card5.png"
+import Card6 from "../../../../src/Gallery/Card6.png"
+import Card7 from "../../../../src/Gallery/Card7.png"
+import Card8 from "../../../../src/Gallery/Card8.png"
 import "./Home.css"
 import Marquee from 'react-fast-marquee'
 import Why from '../Why/Why'
+import OurSiteList from '../OurSiteList/OurSiteList'
+import AboutUs from '../AboutUs/AboutUs'
 
 export default function Home() {
     return (
@@ -13,19 +23,22 @@ export default function Home() {
                     <div className="relative wrapper">
                         <div className="box">
                             <img src={herobg} className='opacity-25 object-cover w-full h-full' />
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                           
+                            <div><img src={Card1} alt="" srcset="" /></div>
+                            <div><img src={Card2} alt="" srcset="" /></div>
+                            <div><img src={Card3} alt="" srcset="" /></div>
+                            <div><img src={Card6} alt="" srcset="" /></div>
+                            <div><img src={Card5} alt="" srcset="" /></div>
+                            <div><img src={Card6} alt="" srcset="" /></div>
+                            <div><img src={Card4} alt="" srcset="" /></div>
+                            <div><img src={Card7} alt="" srcset="" /></div>
+                            <div><img src={Card8} alt="" srcset="" /></div>
+                            <div><img src={Card6} alt="" srcset="" /></div>
+                            <div><img src={Card1} alt="" srcset="" /></div>
+                            <div><img src={Card2} alt="" srcset="" /></div>
+                            <div><img src={Card3} alt="" srcset="" /></div>
+                            <div><img src={Card6} alt="" srcset="" /></div>
+                            
                         </div>
                     </div>
                     <div className='absolute inset-0 flex justify-center items-center px-3'>
@@ -33,7 +46,7 @@ export default function Home() {
                             <div className=''>
                                 <div data-aos="fade-up">
 
-                                    <h1 className='header text-5xl md:text-8xl font-semibold text-center textShadow px-5'>SAMIR <span className='text-white'>MALIK</span> 
+                                    <h1 className='header text-5xl md:text-8xl font-semibold text-center textShadow px-5'>SAMIR <span className='text-white'>MALIK</span>
                                     </h1>
                                     <h1 className='text-center text-2xl font-medium py-4'>GET YOUR ONLINE BETTING SITE PANEL</h1>
                                     <div className='flex justify-center items-center mb-12'>
@@ -54,6 +67,8 @@ export default function Home() {
                 </div>
             </div>
             <div>
+                <AboutUs></AboutUs>
+                <OurSiteList></OurSiteList>
                 <Why></Why>
                 <Contact></Contact>
             </div>

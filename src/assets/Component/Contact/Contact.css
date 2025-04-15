@@ -3,7 +3,12 @@
 }
 
 .bg {
-    background: linear-gradient(to left, #7c10c9 0%, #DA00B5);
+    background-image: conic-gradient(rgb(1, 66, 187), rgb(255, 55, 222), rgb(3, 167, 196));
+    text-shadow: 0px 2px 2px black;
+}
+
+.contactbg {
+    background: linear-gradient(to top,#31052a, #1b042c);
 }
 
 .border {

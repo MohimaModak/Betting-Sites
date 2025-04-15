@@ -2,7 +2,9 @@
   color: rgb(218, 0, 181);
 }
 
-  
+.whybg {
+  background: linear-gradient(to top, #1b042c 0%, #31052a);
+}
 
 
   @keyframes rotate {
@@ -14,7 +16,7 @@
     }
   }
   .animate-rotate-border {
-    filter: blur(10px);
+    filter: blur(30px);
     opacity: 0.7;
   }
   

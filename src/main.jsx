@@ -6,6 +6,8 @@ import Home from "./assets/Component/Home/Home";
 import './index.css';
 import Contact from "./assets/Component/Contact/Contact";
 import Why from "./assets/Component/Why/Why";
+import OurSiteList from "./assets/Component/OurSiteList/OurSiteList";
+import AboutUs from "./assets/Component/AboutUs/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +17,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/AboutUs",
+        element: <AboutUs></AboutUs>,
+      },
+      {
+        path: "/OurSiteList",
+        element: <OurSiteList></OurSiteList>,
       },
       {
         path: "/Why",
