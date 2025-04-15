@@ -33,7 +33,7 @@ export default function Contact() {
           <h1 className='text-4xl font-bold py-8'><span className='payment'>For Panel ID</span> Whatsapp us on</h1>
           <h1 className='text-xl mb-4'>ইউজার অ্যাকাউন্ট নিতে এখনি যোগাযোগ করুন।</h1>
           <div className="flex justify-center items-center gap-4 mb-16">
-            <a href="tel:+4571597652">
+            <a target='_blank' href="https://wa.me/16162743677">
               <h1 className="bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl">+1(616) 274-3677</h1>
             </a>
           </div>
@@ -83,8 +83,8 @@ export default function Contact() {
           <h1 className='text-3xl lg:text-4xl mb-4 font-light'>With Our Step-By-Step Guide For Beginners</h1>
           <h1 className='text-xl mb-8'>We Provide 24/7 Service For Our Customers.</h1>
           <div className="flex justify-center items-center gap-4 mb-5 lg:mb-0">
-            <a href="tel:+4571597652">
-              <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>+1(616) 274-3677</h1>
+            <a href="/">
+              <h1 className='bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl'>Get Started Playing</h1>
             </a>
           </div>
           <div className='mt-16'>
@@ -106,9 +106,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
   )

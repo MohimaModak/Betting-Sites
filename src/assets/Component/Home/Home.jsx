@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../Contact/Contact'
 import herobg from "../../../../src/Gallery/herobg.jpeg"
+import HeroLogo from "../../../../src/Gallery/HeroLogo.png"
 import Card1 from "../../../../src/Gallery/Card1.png"
 import Card2 from "../../../../src/Gallery/Card2.png"
 import Card3 from "../../../../src/Gallery/Card3.png"
@@ -48,7 +49,7 @@ export default function Home() {
                                     </h1>
                                     <h1 className='text-center text-2xl font-medium py-4'>GET YOUR ONLINE BETTING SITE PANEL</h1>
                                     <div className='flex justify-center items-center mb-12'>
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ZB1b6rfq8kiI0s_oA6AvusMSGQUsMaI4WQ&s" className='w-80 h-80 rounded-full' />
+                                        <img src={HeroLogo} className='w-80 h-80 rounded-full' />
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-scroll";
+import logo from "../../../../src/Gallery/logoS.png"
 import "./Navbar.css"
 
 export default function Navbar() {
@@ -23,8 +24,8 @@ export default function Navbar() {
       </div>
       <div className={`mobile-menu ${toggle ? "open" : ""}`}>
         <div className="navbar-links">
-          <div>
-            <h1 className='gradient-text text-center text-3xl font-bold'>AI Platform</h1>
+          <div className='flex justify-center items-center mx-5'>
+          <img src={logo} />
           </div>
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
@@ -49,19 +50,22 @@ export default function Navbar() {
           <nav className="navbar flex justify-center items-center">
             <div className="navbar-links lg:flex justify-center items-center">
 
-              <Link to="/" smooth={true} duration={1000} className="text-xl mr-10">
+              <Link to="/" smooth={true} duration={1000} className="text-xl mr-4">
                 Home
               </Link>
-              <Link to="/AboutUs" smooth={true} duration={1000} className="text-xl mr-10">
+              <Link to="/AboutUs" smooth={true} duration={1000} className="text-xl mr-4">
               About Us
               </Link>
-              <Link to="/OurSiteList" smooth={true} duration={1000} className="text-xl mr-10">
+              <Link to="/OurSiteList" smooth={true} duration={1000} className="text-xl mr-4">
                 Our Site List
               </Link>
-              <Link to="/Why" smooth={true} duration={1000} className="text-xl mr-10">
+              <div className='mr-4'>
+                <img src={logo} alt="" />
+              </div>
+              <Link to="/Why" smooth={true} duration={1000} className="text-xl mr-4">
                 Why Samir Malik
               </Link>
-              <Link to="/Contact" smooth={true} duration={1000} className="text-xl mr-10">
+              <Link to="/Contact" smooth={true} duration={1000} className="text-xl">
                 Contact Us
               </Link>
 
