@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './OurSiteList.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from "../../../../src/Gallery/sixfair.png";
-import nogod from "../../../../src/Gallery/NagadWin.png";
+import logo from "../../../../src/Gallery/six.webp";
+import nogod from "../../../../src/Gallery/NagadWin.webp";
 import dana from "../../../../src/Gallery/dana.png";
 import velki from "../../../../src/Gallery/velki.png";
 import malbet from "../../../../src/Gallery/malbet.png";
@@ -13,7 +13,7 @@ import bajiwala from "../../../../src/Gallery/bajiwala.png";
 import xbet from "../../../../src/Gallery/xbet.png";
 import wickets from "../../../../src/Gallery/wickets.png";
 import lalabaji from "../../../../src/Gallery/lalabaji.png";
-import skybuzz from "../../../../src/Gallery/skybuzz.png";
+import skybuzz from "../../../../src/Gallery/sky.png";
 
 const sites = [
   { name: 'Sixfair.live', image: logo, username: 'jihan99999', password: 'Asdfg1234', link: 'https://sixfair.live/' },
@@ -29,7 +29,7 @@ const sites = [
   { name: '1xBetBdt.live', image: xbet, username: 'Jihan9999', password: 'Lkjh0987', link: 'https://1xbetbdt.live' },
   { name: 'NayaLodis.live', image: wickets, username: 'jihan99999', password: 'Asdfg1234', link: 'https://nayalodis.live/' },
   { name: 'Lalbaji88.live', image: lalabaji, username: 'Jihan999', password: 'Asdf1234', link: 'https://lalbaji88.live/' },
-  { name: 'SkyBuzz.live', image: logo, username: 'Jihan8999', password: 'Asdf1234.', link: 'https://skybuzz.live' },
+  { name: 'SkyBuzz.live', image: skybuzz, username: 'Jihan8999', password: 'Asdf1234.', link: 'https://skybuzz.live' },
 ];
 
 export default function OurSiteList() {
