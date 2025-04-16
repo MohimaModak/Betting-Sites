@@ -14,6 +14,7 @@ import xbet from "../../../../src/Gallery/xbet.png";
 import wickets from "../../../../src/Gallery/wickets.png";
 import lalabaji from "../../../../src/Gallery/lalabaji.png";
 import skybuzz from "../../../../src/Gallery/sky.png";
+import velki2 from "../../../../src/Gallery/velki2.png";
 
 const sites = [
   { name: 'Sixfair.live', image: logo, username: 'jihan99999', password: 'Asdfg1234', link: 'https://sixfair.live/' },
@@ -21,7 +22,7 @@ const sites = [
   { name: 'Dana36.live', image: dana, username: 'jihan999999', password: 'Asdfg1234', link: 'https://dana36.live/' },
   { name: 'Velkebdt.com', image: velki, username: 'Jihan20', password: 'Asdf1234', link: 'https://velkebdt.com' },
   { name: 'Malbet.live', image: malbet, username: 'Jihan21', password: 'Asdf1234', link: 'https://malbet.live' },
-  { name: 'Velki123.com', image: velki, username: 'jihan99999', password: 'Abcd1234', link: 'https://velki123.com' },
+  { name: 'Velki123.com', image: velki2, username: 'jihan99999', password: 'Abcd1234', link: 'https://velki123.com' },
   { name: 'LC247.guru', image: LC, username: 'Jihan99999', password: 'Asdf5566', link: 'https://lc247.guru' },
   { name: 'BetX365.me', image: betx, username: 'jihan99999', password: 'Asdfg1234', link: 'https://betx365.me' },
   { name: 'LC247.ink', image: LC, username: 'jihan99999', password: 'Asdfg1234', link: 'https://lc247.ink' },
