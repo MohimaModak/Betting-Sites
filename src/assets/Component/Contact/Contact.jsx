@@ -35,14 +35,14 @@ export default function Contact() {
         {/* marquee */}
         <div>
           <Marquee direction='left' speed={100} gradient={false}>
-            <h1><img src={astha} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={bksh} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={nogod} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={rocket} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={T} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={upay} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={wallet} className='w-16 lg:w-32 mr-4'/></h1>
-            <h1><img src={dutch} className='w-16 lg:w-32 mr-4'/></h1>
+            <h1><img src={astha} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={bksh} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={nogod} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={rocket} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={T} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={upay} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={wallet} className='w-16 lg:w-32 mr-4' /></h1>
+            <h1><img src={dutch} className='w-16 lg:w-32 mr-4' /></h1>
           </Marquee>
         </div>
 
@@ -53,9 +53,14 @@ export default function Contact() {
           <h1 className='text-4xl font-bold py-8'><span className='payment'>For Panel ID</span> Whatsapp us on</h1>
           <h1 className='text-xl mb-4'>ইউজার অ্যাকাউন্ট নিতে এখনি যোগাযোগ করুন।</h1>
           <div className="flex justify-center items-center gap-4 mb-16">
+          
             <a target='_blank' href="https://wa.me/16892857706">
-              <h1 className="bg hover:bg-black hover:text-white transform transition-all duration-300 font-medium rounded-md px-6 py-4 text-2xl">+16892857706</h1>
+              <button className="bg flex justify-center items-center text-white font-medium px-6 py-4 text-2xl rounded transition">
+                <div><img src={whatsapp} className='w-7 mr-1' /></div>
+                +16892857706
+              </button>
             </a>
+
           </div>
 
           <h1 className='text-2xl md:text-3xl font-medium md:px-10'>আমাদের এজেন্ট লিস্ট চেক করে পড়ে লেনদেন করবেন। এজেন্ট লিস্ট এর বাহিরে লেনদেন করে প্রতারিত হলে আমাদের গ্রুপ বা এডমিন পেনেল দ্বায়ী থাকবে না।
@@ -109,13 +114,13 @@ export default function Contact() {
           </div>
 
           <div className='my-10'>
-          <div className='flex justify-center items-center gap-5'>
+            <div className='flex justify-center items-center gap-5'>
               <div className='flex justify-center items-center'>
                 <a target='_blank' href="https://www.facebook.com/DigitalZetofficial">
                   <img src={facebook} className='w-8' />
                 </a>
               </div>
-             
+
               <div className="flex justify-center items-center">
                 <a target='_blank' href="https://wa.me/16892857706">
                   <img src={whatsapp} alt="Phone" className="w-8" />
@@ -125,8 +130,8 @@ export default function Contact() {
           </div>
 
           <div className=''>
-          <h1 className='text-xl'>
-            Powered by <a href="https://digitalzet.com"><strong className='payment underline'>Digitalzet</strong></a>
+            <h1 className='text-xl'>
+              Powered by <a href="https://digitalzet.com"><strong className='payment underline'>Digitalzet</strong></a>
             </h1>
           </div>
 

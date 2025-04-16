@@ -145,6 +145,8 @@ import React, { useEffect, useState } from 'react'
 import './OurSiteList.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import logo from "../../../../src/Gallery/sixfair.png"
+import logo2 from "../../../../src/Gallery/nogodwin.png"
 
 
 const sites = [
@@ -201,10 +203,13 @@ export default function OurSiteList() {
         <div
           key={index}
           onClick={() => handleToggle(index)}
-          className='gradient-border p-[2px] rounded-md cursor-pointer'
+          className='gradient-border p-[3.5px] rounded-md cursor-pointer'
         >
           <div className='bg-black p-5 rounded-md text-center h-[250px] flex flex-col justify-center transition-all duration-300'>
-            <h1 className='payment text-4xl font-bold mb-3'>{site.name}</h1>
+            <h1 className='payment text-3xl font-bold'>{site.name}</h1>
+            <div className='flex justify-center items-center'>
+              <img src={logo} className='w-28 my-2.5' />
+            </div>
 
             {openCard === index ? (
               <div>
@@ -249,6 +254,23 @@ export default function OurSiteList() {
   </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

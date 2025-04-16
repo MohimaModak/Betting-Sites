@@ -3,6 +3,8 @@ import "./AboutUs.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from "react-scroll";
+import whatsapp from "../../../../src/Gallery/whatsapp.png"
+
 
 export default function AboutUs() {
 
@@ -44,9 +46,10 @@ export default function AboutUs() {
                                         <h1 className="payment text-xl lg:text-2xl font-semibold mb-4">সুপার এডমিন, এডমিন, ও নতুন সাইট নিতে যোগাযোগ করুন।
                                         </h1>
                                         <div className='flex justify-center items-center'>
+                                        
                                             <a target='_blank' href="https://wa.me/16892857706">
-                                                <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
-                                                    +16892857706
+                                                <button className="bg flex justify-center items-center text-white font-medium text-lg py-2.5 px-4 rounded transition">
+                                                <div><img src={whatsapp} className='w-7 mr-1'/></div>   +16892857706
                                                 </button>
                                             </a>
                                         </div>
@@ -68,7 +71,8 @@ export default function AboutUs() {
                                             <div className='flex justify-center items-center mb-4'>
                                                 <div>
                                                     <a target='_blank' href="https://wa.me/16468143702">
-                                                        <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
+                                                        <button className="bg flex justify-center items-center text-white font-medium text-lg py-2.5 px-4 rounded transition">
+                                                        <div><img src={whatsapp} className='w-7 mr-1'/></div>
                                                             +16468143702
                                                         </button>
                                                     </a>
@@ -77,7 +81,8 @@ export default function AboutUs() {
                                             <div className='flex justify-center items-center'>
                                                 <div>
                                                     <a target='_blank' href="https://wa.me/16892857706">
-                                                        <button className="bg text-white font-medium text-lg py-2 px-6 rounded transition">
+                                                        <button className="bg flex justify-center items-center text-white font-medium text-lg py-2.5 px-4 rounded transition">
+                                                        <div><img src={whatsapp} className='w-7 mr-1'/></div>
                                                             +16892857706
                                                         </button>
                                                     </a>
