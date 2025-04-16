@@ -141,13 +141,11 @@
 
 
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import './OurSiteList.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from "../../../../src/Gallery/sixfair.png"
-import logo2 from "../../../../src/Gallery/nogodwin.png"
-
+import logo from "../../../../src/Gallery/sixfair.png";
 
 const sites = [
   { name: 'Sixfair.live', username: 'jihan99999', password: 'Asdfg1234', link: 'https://sixfair.live/' },
@@ -167,6 +165,8 @@ const sites = [
 ];
 
 export default function OurSiteList() {
+  const [copied, setCopied] = useState(false);
+  const [openCard, setOpenCard] = useState(null);
 
   useEffect(() => {
     AOS.init({
@@ -180,78 +180,83 @@ export default function OurSiteList() {
 
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text)
-      .then(() => alert('Copied!'))
+      .then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      })
       .catch((err) => console.error('Failed to copy: ', err));
   };
-
-  const [openCard, setOpenCard] = useState(null);
 
   const handleToggle = (index) => {
     setOpenCard(openCard === index ? null : index);
   };
 
-  
-
   return (
     <div id='/OurSiteList' className='py-16 px-5 lg:px-16 relative sitelistbg'>
-    <h1 data-aos="fade-up" className="text-center text-white text-4xl font-bold mb-10">
-      Our <span className="payment">Partners</span>
-    </h1>
+      <h1 data-aos="fade-up" className="text-center text-white text-4xl font-bold mb-10">
+        Our <span className="payment">Partners</span>
+      </h1>
 
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
-      {sites.map((site, index) => (
-        <div
-          key={index}
-          onClick={() => handleToggle(index)}
-          className='gradient-border p-[3.5px] rounded-md cursor-pointer'
-        >
-          <div className='bg-black p-5 rounded-md text-center h-[250px] flex flex-col justify-center transition-all duration-300'>
-            <h1 className='payment text-3xl font-bold'>{site.name}</h1>
-            <div className='flex justify-center items-center'>
-              <img src={logo} className='w-28 my-2.5' />
-            </div>
-
-            {openCard === index ? (
-              <div>
-                <div className='flex justify-center items-center gap-5 mb-1'>
-                  <h1 className='text-lg font-semibold'>Username</h1>
-                  <h1 className='text-lg font-semibold'>Password</h1>
-                </div>
-                <div className='flex justify-center items-center gap-5'>
-                  <div
-                    className='btn px-2.5 py-1.5 text-lg rounded-sm cursor-pointer'
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleCopy(site.username);
-                    }}
-                  >
-                    <h1>{site.username}</h1>
-                  </div>
-                  <div
-                    className='btn px-2.5 py-1.5 text-lg rounded-sm cursor-pointer'
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleCopy(site.password);
-                    }}
-                  >
-                    <h1>{site.password}</h1>
-                  </div>
-                </div>
-
-                <div className='mt-3'>
-                  <a href={site.link} target="_blank" rel="noopener noreferrer">
-                    <button className='btn px-2.5 py-1.5 text-lg rounded-sm'>Visit Website</button>
-                  </a>
-                </div>
-              </div>
-            ) : (
-              <p className='text-gray-400 text-sm'>Click to see login details</p>
-            )}
-          </div>
+      {copied && (
+        <div className="fixed top-5 right-5 bg-green-600 text-white px-4 py-2 rounded shadow-lg z-50">
+          Copied!
         </div>
-      ))}
+      )}
+
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+        {sites.map((site, index) => (
+          <div
+            key={index}
+            onClick={() => handleToggle(index)}
+            className='gradient-border p-[3.5px] rounded-md cursor-pointer'
+          >
+            <div className='bg-black p-5 rounded-md text-center h-[250px] flex flex-col justify-center transition-all duration-300'>
+              <h1 className='payment text-3xl font-bold'>{site.name}</h1>
+              <div className='flex justify-center items-center'>
+                <img src={logo} className='w-28 my-2.5' alt="Logo" />
+              </div>
+
+              {openCard === index ? (
+                <div>
+                  <div className='flex justify-center items-center gap-5 mb-1'>
+                    <h1 className='text-lg font-semibold'>Username</h1>
+                    <h1 className='text-lg font-semibold'>Password</h1>
+                  </div>
+                  <div className='flex justify-center items-center gap-5'>
+                    <div
+                      className='btn px-2.5 py-1.5 text-lg rounded-sm cursor-pointer'
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleCopy(site.username);
+                      }}
+                    >
+                      <h1>{site.username}</h1>
+                    </div>
+                    <div
+                      className='btn px-2.5 py-1.5 text-lg rounded-sm cursor-pointer'
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleCopy(site.password);
+                      }}
+                    >
+                      <h1>{site.password}</h1>
+                    </div>
+                  </div>
+
+                  <div className='mt-3'>
+                    <a href={site.link} target="_blank" rel="noopener noreferrer">
+                      <button className='btn px-2.5 py-1.5 text-lg rounded-sm'>Visit Website</button>
+                    </a>
+                  </div>
+                </div>
+              ) : (
+                <p className='text-gray-400 text-sm'>Click to see login details</p>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
   );
 }
 
